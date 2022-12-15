@@ -6,7 +6,7 @@ public class User {
 	
 	// 아이디, 비밀번호, 이름, 나이, 성별 >> 추상화
 	
-	private String userId;
+	private String userId; //인스턴스 변수임
 	private String userPw;
 	private String userName;
 	private int userAge;
@@ -64,7 +64,7 @@ public class User {
 		this.userGender = userGender;
 	}
 	//매개변수 생성자
-	// ** 사용되는 기술, 변수 : 매개변수 , overloading(오버로등), this
+	// ** 사용되는 기술, 변수 : 매개변수 , overloading(오버로드), this
 	
 	//** 매개변수 : 생성자나 메서드 호출 시()안에 작성되어
 				//전달되어지는 값을 저장하는 변수 

@@ -6,7 +6,7 @@ import edu.kh.oop.cls.model.vo.User;
 public class ClsService {
 
 	public void ex1() {
-		Student std = new Student();
+		Student std = new Student(); //  std는 참조변수
 		// public class인 Student는 import 가능
 		
 		
@@ -70,8 +70,8 @@ public class ClsService {
 	
 	public void ex3() {
 		//생성자 확인 테스트
-		
-		Student s1 = new Student();
+				//참조변수 s1
+		Student s1 = new Student(); //student라는 객체 생성 > iv 인스턴스라는뜻
 						//Student() 가 기본생성자
 		
 		// User 기본 생성자를 이용해서 객체 생성

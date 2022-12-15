@@ -1,7 +1,7 @@
 package edu.kh.oop.cls.model.vo;
 
 public class Student { // 클래스 선언부
-//[접근제한자] [예약어] class 클래스명
+//[접근제한자] [예약어] class == 클래스명
 	
 	
 // 접근제한자 public : 같은 프로젝트 내에서 어떤 클래스에서든 import 할 수 있음을 나타냄.	
@@ -66,10 +66,12 @@ public class Student { // 클래스 선언부
 	
 	// static 변수는 무조건 class변수
 	//static이 안붙으면 인스턴스변수
-	// static변수는 바꾸면 원본에 영향을 미침 기타 사본에도 영향을 미침
-	// static이 안붙으면 원본에 영향을 미치지 않음 a,b라는 것을 만들었는데 
-	// 원본이 10, a에 5를 넣었을때 원본 10은 변하지않음
-	
+	// class변수는 new연산자를 사용하여 객체생성을 하지 않아도 바로 값입력 가능
+	// class변수는 하나를 바꾸면 전부 다바뀜 test1.높이 = 10;을 하면 test2.높이도 바뀜 
+	// ex)test1.높이 = 10; -> syso(test1.높이) => 10;
+	//				  	syso(test2.높이) => 10;
+	// 인스턴스 변수는 ex) 높이 = 10; -> syso(test1.높이) => 10;
+	//								syso(test2.높이) => 변하지않음(전에있던값)
 	// ================================
 	// 생성자(constructor)
 	
