@@ -67,6 +67,17 @@ public class ClsService {
 		
 		
 	}
+	public void game() {
+		
+		//TestVo character = new TestVo();
+		
+			
+		
+	}
+	
+	
+	
+	
 	
 	public void ex3() {
 		//생성자 확인 테스트
@@ -77,7 +88,7 @@ public class ClsService {
 		// User 기본 생성자를 이용해서 객체 생성
 		User u1 = new User();
 		User u2 = new User();
-		
+			//u1은 지역변수
 		// User 객체 필드 초기화 확인
 		System.out.println(u1.getUserName() );
 		System.out.println(u1.getUserGender() );
