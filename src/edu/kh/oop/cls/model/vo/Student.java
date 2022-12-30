@@ -92,6 +92,17 @@ public class Student { // 클래스 선언부
 	public Student() {
 		// 객체가 생성될 때 수행되는 코드
 		System.out.println("기본생성자에 의해 " + "Student 객체가 생성됨");
+		
+		
+	}
+
+	public Student(int v1, int v2, int v3, int v4, String name) {
+		
+		this.v1 = v1;
+		this.v2 = v2;
+		this.v3 = v3;
+		this.v4 = v4;
+		this.name = name;
 	}
 	
 	

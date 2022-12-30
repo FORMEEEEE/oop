@@ -39,7 +39,7 @@ public class MemberService { // 클래스
 	
 	//[접근제한자]      [예약어]      반환형           메소드명([매개변수]) {}
 	// public		 static		 기본자료형
-//	  protected		 final		참조형(배열,클래스)
+    //	  protected		 final		참조형(배열,클래스)
 	//(default)		abstract      void
 	//	  private	  static final
 
